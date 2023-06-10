@@ -4,7 +4,7 @@ let attempts = 0;
 
 do {
     guess = prompt("Guess a number between 1 and 100:");
-attempts++;
+    attempts++;
     if (guess < secretNumber) {
         alert("Too low, try again.");
     } else if (guess > secretNumber) {
